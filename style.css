@@ -26,3 +26,19 @@ section::before {
   z-index: 10000;
   pointer-events: none;
 }
+
+.scroll {
+  width: calc(100% / 400px);
+  left: -400px;
+  display: flex;
+  color: #fff;
+}
+
+.scroll div {
+  background: #e9c804;
+  color: #1d1104;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+}
